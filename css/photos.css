@@ -1,0 +1,27 @@
+body{
+    background-color: chartreuse;
+}
+h1{
+    background-color: chartreuse;
+}
+
+img {
+    width: 30%;
+    height: 300px;
+    float:left;
+    margin: 1.16%;
+    
+}
+img:hover{
+    background-color: cyan;
+    width: 250px ;
+    height: 200;
+}
+h1 {
+    font-family: 'Note Serif',serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    border-bottom:  20px solid red;
+    padding-bottom: 20px;
+}

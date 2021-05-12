@@ -1,0 +1,61 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="content" refresh="8">
+        <meta name="keywords" content="HTML,CSS">
+        <link rel="stylesheet" href="css/blo.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap" rel="stylesheet">
+        <title>BLOG SITE</title>
+        
+    </head>
+    
+    <body>
+        <div class="frent">
+  
+        <h1>THIS IS DJANGO RELATED POST</h1>
+          <p>Because Django was developed in a fast-paced newsroom environment, it was designed to make common Web-development tasks fast and easy. Here’s an informal overview of how to write a database-driven Web app with Django.
+
+            The goal of this document is to give you enough technical specifics to understand how Django works, but this isn’t intended to be a tutorial or reference – but we’ve got both! When you’re ready to start a project, you can start with the tutorial or dive right into more detailed documentation.</p>        
+    </div>
+    <p id="long">
+        <strong> your model</strong>
+Although you can use Django without a database, it comes with an object-relational mapper in which you describe your database layout in Python code.
+
+The data-model syntax offers many rich ways of representing your models – so far, it’s been solving many years’ worth of database-schema problems. Here’s a quick example:
+    </p>
+    <h3>Enjoy the free API</h3>
+    <p>With that, you’ve got a free, and rich, Python API to access your data. The API is created on the fly, no code generation necessary:</p>
+        <p>Design your URLs¶
+            A clean, elegant URL scheme is an important detail in a high-quality Web application. Django encourages beautiful URL design and doesn’t put any cruft in URLs, like .php or .asp.
+            
+            To design URLs for an app, you create a Python module called a URLconf. A table of contents for your app, it contains a mapping between URL patterns and Python callback functions. URLconfs also serve to decouple URLs from Python code.
+            
+            Here’s what a URLconf might look like for the Reporter/Article example above:</p>
+            <h3>Write your views</h3>
+               <p> Each view is responsible for doing one of two things: Returning an HttpResponse object containing the content for the requested page, or raising an exception such as Http404. The rest is up to you.
+                
+                Generally, a view retrieves data according to the parameters, loads a template and renders the template with the retrieved data. Here’s an example view for year_archive from above:</p>
+                <h3>Design your templates</h3>
+                   <p> The code above loads the news/year_archive.html template.
+                    
+                    Django has a template search path, which allows you to minimize redundancy among templates. In your Django settings, you specify a list of directories to check for templates with DIRS. If a template doesn’t exist in the first directory, it checks the second, and so on.
+                    
+                    Let’s say the news/year_archive.html template was found. Here’s what that might look like:</p>
+
+                    <form action="../w3 school/ifrme.html">
+                        <label for="nam">Enter your name:</label>
+                        <input type="text" id="name" class="name" placeholder="ADI"><br>
+                        <label for="bac">Enter you Phonr Number:</label>
+                        <input type="number" id="bac" name="bac" value="984825263"><br>
+                        <label for="fon">Enter Your Email:</label>
+                        <input type="email" id="for" name="fon" placeholder="Example@gmail.com"><br>
+                        <label for="da">Enter date of birth:</label>
+                        <input type="datetime" id="da" name="da" placeholder="20/09/1996"><br>
+                        <button type="submit" onclick="alert('U are entering border page')">Submit</button>
+                        <button type="submit" onclick="alert('do u want cancel the form')">Cancel</button>
+                    </form>
+                <img src="images/application.jpg" alt="no application images requuired">
+    </body>
+</html>
